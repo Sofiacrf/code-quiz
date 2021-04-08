@@ -23,3 +23,4 @@ This project will be updated with some improvement regarding the score, timer an
 ![JS-quiz3.](JS-quiz3.PNG)
 
 ## Link to the website
+https://sofiacrf.github.io/code-quiz/
