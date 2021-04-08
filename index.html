@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Code quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+  </head>
+  <body>
+    <div id="begin">
+      <h1>Javascript Coding Quiz</h1>
+      <p>
+        Answer the following questions and see how of an expert you are in
+        Javascript, but hurry up there´s a time limit!
+      </p>
+      <button id="start">Start Quiz</button>
+    </div>
+
+    <div id="game" class="hide">
+      <h3 id="each-question"></h3>
+      <ol id="user-options" class="user-options"></ol>
+      <h4 id="correct-answer"></h4>
+      <div>
+        <h4 id="score">Score:</h4>
+        <h4 class="timeEl"></h4>
+        <h6 id="right"></h6>
+        <h6 id="wrong"></h6>
+      </div>
+    </div>
+
+    <div id="end">
+      <div id="finished-game" class="hide">
+        <h3 id="final-score">Final Score</h3>
+        <button id="restart">Restart Game</button>
+        <button id="highscores">Highscores</button>
+      </div>
+    </div>
+  </body>
+</html>
