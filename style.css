@@ -11,12 +11,13 @@ body {
     justify-content: center;
     width: 80vw; 
     text-align: center;
+    background-image: url(sky1.jpg);
 }
 
 #begin {
     padding: 40px;
     text-align: center;
-    color: rgb(0, 102, 255);
+    color: rgb(204, 0, 255);
 }
 
 #begin p {
@@ -24,7 +25,7 @@ body {
 }
 
  p {
-    color:rgb(59, 148, 250);
+    color: violet;
     font-size: 20px;
     font-weight: bolder;
     width: 50vw;
@@ -34,15 +35,30 @@ body {
     margin: 0 auto;
 }
 
+.choiceButton {
+    background: transparent;
+    color:rgb(49, 0, 61);
+    margin: 6px;
+    display:list-item;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#each-question {
+    color:rgb(49, 0, 61);
+    font-weight: bold;
+}
 
 #game {
     width: 100%;
 }
 
 #start {
-    background-color: #5cc5ee;
+    background-color: #8700f5;
     border: 5px;
     color: white;
+    border-radius: 5px;
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
@@ -50,13 +66,14 @@ body {
     font-size: 16px
 }
 
-.hide {
+.hide, #end {
     display: none;
-} 
+}
 
 #score {
-    background-color: blue;
+    background-color:rgb(49, 0, 61);
     border: none;
+    border-radius: 5px;
     color: white;
     padding: 15px 30px;
     text-align: center;
@@ -65,11 +82,21 @@ body {
     font-size: 16px
 }
 
-.right {
-    background: greenyellow;
+.timeEl, #right {
+color:rgb(89, 10, 109);
+  transition: 1s linear all;
 }
 
-.wrong {
-    background-color: orangered;
+#finished-game {
+    padding: 40px;
+    text-align: center;
+    color:rgb(89, 10, 109);
 }
 
+.inputInitials, #restart, #highscores {
+    color:rgb(49, 0, 61);
+    background-color: rgb(245, 205, 255);
+    margin: 6px;
+    border: none;
+    border-radius: 3px;
+}
