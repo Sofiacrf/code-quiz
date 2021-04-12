@@ -21,6 +21,7 @@ This project will be updated with some improvement regarding the score, timer an
 ![JS-quiz.](JS-quiz.PNG)
 ![JS-quiz2.](JS-quiz2.PNG)
 ![JS-quiz3.](JS-quiz3.PNG)
+![JS-quiz4.](JS-quiz4.PNG)
 
 ## Link to the website
 https://sofiacrf.github.io/code-quiz/

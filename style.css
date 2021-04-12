@@ -11,13 +11,16 @@ body {
     justify-content: center;
     width: 80vw; 
     text-align: center;
-    background-image: url(sky1.jpg);
+    background-color: rgb(197, 134, 255);
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
 }
 
 #begin {
     padding: 40px;
     text-align: center;
-    color: rgb(204, 0, 255);
+    color: rgb(185, 0, 231);
 }
 
 #begin p {
@@ -25,14 +28,16 @@ body {
 }
 
  p {
-    color: violet;
-    font-size: 20px;
+    color: rgb(255, 0, 255);
+    font-size: 28px;
     font-weight: bolder;
     width: 50vw;
 }
 #user-options {
     width: 60%;
     margin: 0 auto;
+    margin-top: 50px;
+    font-size: 17px;
 }
 
 .choiceButton {
@@ -52,6 +57,7 @@ body {
 
 #game {
     width: 100%;
+    margin-top: 100px;
 }
 
 #start {
@@ -76,6 +82,7 @@ body {
     border-radius: 5px;
     color: white;
     padding: 15px 30px;
+    margin-top: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
